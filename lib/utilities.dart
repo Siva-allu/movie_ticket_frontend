@@ -4,7 +4,8 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 
-final IP = '192.168.0.19:3000';
+//final IP = '192.168.0.19:3000';
+final IP='movie-ticket-devrev-sivaallu.herokuapp.com';
 var currentUserContact;
 var currentUserName;
 var curentUserEmail;

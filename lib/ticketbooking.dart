@@ -63,7 +63,8 @@ class _TicketBookingState extends State<TicketBooking> {
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount:
                       (orientation == Orientation.portrait ? 1 : 3),
-                  childAspectRatio: 4/1,
+                  childAspectRatio:  (MediaQuery.of(context).size.width) /
+                      (MediaQuery.of(context).size.height /1.5),
                   ),
                   itemBuilder: (BuildContext context, int index) {
                       return InkWell(
